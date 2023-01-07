@@ -3,7 +3,7 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-colmenarescadiz',
         'version' => 'dev-colmenarescadiz',
-        'reference' => '6e670df08e71f03c4e09b7c8ba44273bff6149f9',
+        'reference' => 'd5867841b669328e6d9b864fb466dfeaacb82ad6',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -364,6 +364,15 @@
                 0 => '*',
             ),
         ),
+        'laravel-lang/lang' => array(
+            'pretty_version' => '12.9.9',
+            'version' => '12.9.9.0',
+            'reference' => '76af289a2c7ca9ffbeeb031277ee5713db62cf18',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel-lang/lang',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
         'laravel/framework' => array(
             'pretty_version' => 'v9.46.0',
             'version' => '9.46.0.0',
@@ -376,7 +385,7 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-colmenarescadiz',
             'version' => 'dev-colmenarescadiz',
-            'reference' => '6e670df08e71f03c4e09b7c8ba44273bff6149f9',
+            'reference' => 'd5867841b669328e6d9b864fb466dfeaacb82ad6',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

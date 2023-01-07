@@ -12,11 +12,20 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-
+    <!-- titulo-->
+   
+    <style>
+       .active a {
+        color: red;
+        text-decoration: none;
+       } 
+    </style>
     <!-- Scripts -->
     @vite(['resources/js/app.js'])
 </head>
 <body>
+ 
+    {{-- @yield('content') --}}
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -72,9 +81,11 @@
             </div>
         </nav>
 
+        @include('partials.nav')
         <main class="py-4">
             @yield('content')
         </main>
     </div>
+    @include('partials.session-status')
 </body>
 </html>
